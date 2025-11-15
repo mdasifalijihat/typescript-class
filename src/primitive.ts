@@ -12,3 +12,9 @@ let userId = 123;
 let isAdmin: boolean = false;
 
 isAdmin = true;
+
+// let x: any = undefined
+// let x: undefined = undefined;
+let x = undefined;
+x = 5;
+x = "Five";
