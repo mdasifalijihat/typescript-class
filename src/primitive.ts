@@ -1,7 +1,14 @@
 // js -ts
 
-
-// JS: string, number, boolean, undefined, null 
+// JS: string, number, boolean, undefined, null
 
 // TS: never, unknown, void
 
+let userName: string = "asif1323";
+
+let userId = 123;
+
+// let isAdmin = false;
+let isAdmin: boolean = false;
+
+isAdmin = true;
