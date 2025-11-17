@@ -39,7 +39,9 @@ const coordinates2: Coordinates<string, string> = ["20", "30"];
 //   }
 // ];
 
-const userList: GenericArray<{ name: string; age: number }> = [
+type User = { name: string; age: number };
+
+const userList: GenericArray<User> = [
   {
     name: "mr.x ",
     age: 22,
